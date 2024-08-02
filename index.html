@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pop.css">
+    <title>Pop Up</title>
+</head>
+<body>
+    <div class="delete-btn">
+        <h1 class="head">Delete Your Account</h1>
+        <button id="op">Delete</button>
+    </div>
+    <div class="container">
+        <div class="popup">
+            <div class="cancel">
+                <h1>Confirmation</h1>
+                <span id="cross">X</span>
+            </div>
+            <p>Are you sure you want to delete your account? this <br>
+            action connot be undone and you will be unable to <br>
+            recover any data.</p>
+            <div class="twobtn">
+                <button id="one-btn" class="btns">Cancel</button>
+                <button id="sec-btn" onclick="deleteId()" class="btns">Yes, delete it!</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="pop.js"></script>
+</html>
